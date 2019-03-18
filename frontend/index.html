@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Full Stack Books</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Books Fullstack</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    
+    <div class="container" id="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <form id="book-form" enctype="multipart/form-data">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Nuevo Libro</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="title">Titulo</label>
+                                <input id="title" name="title" type="text" class="form-control" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <label for="author">Autor</label>
+                                <input id="author" name="author" type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="isbn">ISBN</label>
+                                <input id="isbn" name="isbn" type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                    <label for="image">Imagen</label>
+                                    <div class="custom-file">
+                                        <input id="image" name="image" type="file" class="form-control">
+                                        <label for="image" class="custom-file-label">Seleccionar</label>
+                                    </div>
+                                </div>
+                            <button class="btn btn-success">CARGAR LIBRO</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="col-md-8" id="books-cards">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

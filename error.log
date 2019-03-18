@@ -1,0 +1,6 @@
+{"service":"user-service","message":"helloworld","level":"error"}
+{"service":"user-service","message":"helloworld","level":"error"}
+{"service":"user-service","message":"helloworld","level":"error"}
+{"service":"user-service","message":"helloworld","level":"error"}
+{"message":"world","level":"error","service":"user-service"}
+{"service":"user-service","message":"helloworld","level":"error"}
