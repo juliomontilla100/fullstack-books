@@ -1,5 +1,6 @@
 class BookService{
     constructor(){
+        /* this.URI = 'http://localhost:3000/api/' */
         this.URI = '/api'
     }
 
